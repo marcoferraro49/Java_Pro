@@ -2,12 +2,18 @@ public class Main {
     public static void main(String[] args) {
 
         int x = 1;
-        double y = 2;
+        double y = 2.1;
         char z = 'c';
 
+        //Esempi di autoboxing
         Integer i = x;
         Double doubled = y;
         Character c = z;
+
+        //Esempi di unboxing
+        int var1 = i;
+        double var2 = doubled;
+        char var3 = c;
 
         System.out.println(sum(x, 6));
         System.out.println(sum1(i, 3));
